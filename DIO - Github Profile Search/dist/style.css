@@ -1,0 +1,82 @@
+body {
+    background-color: #0D1117;
+    color: #8b949e;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px 10px 10px;
+}
+
+.info img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 #8b949e;
+    height: 140px;
+    width: 140px;
+    margin-bottom: 12px;
+}
+
+.info p {
+    margin: 4px 0 0 0;
+}
+
+.info-name {
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search .icon {
+    fill: white;
+    width: 30px;
+}
+
+#search-bar {
+    width: 90%;
+    height: 17px;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+}
+
+#search button {
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+}
+
+.repositories {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.repository {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0D1117;
+    border: 1px solid #8b949e;
+    border-radius: 5px;
+    width: 28vw;
+    height: 200px;
+    text-align: center;
+    margin: 2vw;
+}
+
+.repository a {
+    text-decoration: none;
+    color: #2185FF;
+}
